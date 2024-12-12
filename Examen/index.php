@@ -3,7 +3,7 @@
 namespace Examen;
 
 
-use Examen\modelos\ConexionBD;
+use Examen\controladores\controladorUsuarios;
 
 session_start();
 //session_destroy();
@@ -32,6 +32,7 @@ if (isset($_GET['accion'])) {
     }
 }else{
     // Si no volvemos a la pagina de inicio
+    controladorUsuarios::mostrarUsuarios();
 
 }
 
