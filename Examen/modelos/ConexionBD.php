@@ -14,7 +14,7 @@ class ConexionBD {
         // Cambiar el host a 'db' (el nombre del servicio de MariaDB en Docker Compose)
         $host = 'examen_mariadb'; // 'db' es el nombre del servicio de MariaDB en docker-compose.yml
         $puerto = '3306'; // El puerto interno en el contenedor (no necesitas especificarlo aquí si usas la red interna de Docker)
-        $db = 'Prueba'; // Nombre de la base de datos
+        $db = 'ciudades'; // Nombre de la base de datos
         $usuario = 'root'; // Usuario de la base de datos
         $clave = 'toor'; // Contraseña del usuario
 
